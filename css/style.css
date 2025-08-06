@@ -1,0 +1,60 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.nav-item:hover {
+  background-color: #222;
+  border-radius: 10px;
+  transition: all ease-in-out 0.25s;
+}
+
+.nav-item:hover > a {
+  color: white;
+  padding-left: 5px;
+}
+.hero {
+  background: linear-gradient(#222);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  margin: 30px 1px 20px;
+  border-radius: 12px 12px;
+}
+
+.cursor {
+  display: inline-block;
+  color: #007bff;
+  animation: blink 1s infinite;
+  font-weight: bold;
+}
+
+.portfolio-card:hover {
+  box-shadow: -15px 15px 10px rgba(71, 68, 68, 0.3);
+  transition: all ease-in-out 0.45s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.portfolio-card {
+  transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #eaefef;
+  text-align: center;
+  padding: 20px 0;
+}
